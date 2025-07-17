@@ -1,10 +1,24 @@
+import os
+from pathlib import Path
+import keyvalues.py
+
 #given working directory which contains the game
-
-
 #pull directory name
-
+gamedir = os.getcwd()
+#empty slot for acf file
+acffile = None
 
 #match to appmanifest file
+
+os.chdir('../../')
+
+for o in path.rglob('*.acf')
+    if o.is_file():
+        text = o.read_text()
+            if gamedir in text:
+                println("acf found")
+                acffile = o
+                
 
 
 #match what steam api depos are installed
@@ -15,7 +29,7 @@
 
 
 #compare to what dll files are in the folder currently 
-
+ 
 
 #query user which dlls need to be overridden
 
