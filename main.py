@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-import keyvalues.py
+from utils import keyvalues
 
 #given working directory which contains the game
 #pull directory name
