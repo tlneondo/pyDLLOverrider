@@ -8,6 +8,8 @@ gamedir = os.getcwd()
 #empty slot for acf file
 acffile = None
 
+folderDlls = None
+
 #match to appmanifest file
 
 os.chdir('../../')
@@ -18,10 +20,14 @@ for o in path.rglob('*.acf')
             if gamedir in text:
                 println("acf found")
                 acffile = o
-                
-
-
 #match what steam api depos are installed
+
+os.chdir(gamedir)
+
+for o in path.rglob(".dll")
+    if o.is_file():
+        
+
 
 
 
